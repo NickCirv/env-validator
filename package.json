@@ -1,0 +1,34 @@
+{
+  "name": "env-validator",
+  "version": "1.0.0",
+  "description": "Validate .env files against a schema contract. Stop shipping with missing environment variables.",
+  "type": "module",
+  "bin": {
+    "env-validator": "./index.js",
+    "envv": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "env",
+    "validation",
+    "ci",
+    "dotenv",
+    "environment",
+    "schema"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/env-validator"
+  },
+  "homepage": "https://github.com/NickCirv/env-validator#readme",
+  "bugs": {
+    "url": "https://github.com/NickCirv/env-validator/issues"
+  }
+}

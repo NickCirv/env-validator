@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # env-validator
 > Validate .env files against a schema. Stop shipping with missing environment variables.
 

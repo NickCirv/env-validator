@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Validate .env files against a schema contract. Stop shipping with missing environment variables.",
   "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
   "bin": {
     "env-validator": "./index.js",
     "envv": "./index.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "keywords": [
     "developer-tools",
